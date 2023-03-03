@@ -588,6 +588,7 @@
 			snps,en-tx-lpi-clockgating;
 			snps,txpbl = <16>;
 			snps,rxpbl = <16>;
+			starfive,syscon = <&aon_syscon 0xc 0x1c0000>;
 			status = "disabled";
 			phy-handle = <&phy0>;
 
@@ -630,6 +631,7 @@
 			snps,en-tx-lpi-clockgating;
 			snps,txpbl = <16>;
 			snps,rxpbl = <16>;
+			starfive,syscon = <&sys_syscon 0x90 0x1c>;
 			status = "disabled";
 			phy-handle = <&phy1>;
 
