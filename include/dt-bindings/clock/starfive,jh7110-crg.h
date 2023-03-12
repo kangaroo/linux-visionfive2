@@ -198,7 +198,15 @@
 #define JH7110_SYSCLK_TDM_TDM_INV		188
 #define JH7110_SYSCLK_JTAG_CERTIFICATION_TRNG	189
 
-#define JH7110_SYSCLK_END			190
+#define JH7110_SYSCLK_PCIE0_AXI_MST0            198
+#define JH7110_SYSCLK_PCIE0_APB                 199
+#define JH7110_SYSCLK_PCIE0_TL                  200
+#define JH7110_SYSCLK_PCIE1_AXI_MST0            201
+#define JH7110_SYSCLK_PCIE1_APB                 202
+#define JH7110_SYSCLK_PCIE1_TL                  203
+#define JH7110_SYSCLK_PCIE01_SLV_DEC            204
+
+#define JH7110_SYSCLK_END			205
 
 /* AONCRG clocks */
 #define JH7110_AONCLK_OSC_DIV4			0
